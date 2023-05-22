@@ -31,10 +31,9 @@ function errorCallback(error) {
 }
 ```
 
-Bilder läggs i samma mapp som markdown-filen.
 
-![](fruit shop.png)
-![](fruit shop2.png)
+![](fruit.png)
+![](fruit2.png)
 
 Läs gärna:
 
