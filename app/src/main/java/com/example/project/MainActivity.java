@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         List<Mountain> jsonMountains = gson.fromJson(json, type);
         for(Mountain m : jsonMountains){
             Log.d("MainActivityMountain", m.getName()+m.getLocation()+m.getCost());
-            listOfMountains.add(new RecyclerViewItem(m.getName()+m.getName()+m.getLocation()+m.getCost()));
+            listOfMountains.add(new RecyclerViewItem(m.getName()+"  "+m.getLocation()+"  "+m.getCost()));
         }
         adapter.notifyDataSetChanged();
     }
