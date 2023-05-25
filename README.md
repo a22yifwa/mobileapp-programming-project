@@ -32,8 +32,8 @@ function errorCallback(error) {
 ```
 
 
-![](fruit.png)
-![](fruit2.png)
+![](fruitshop1.png)
+![](fruitshop2.png)
 
 Läs gärna:
 
