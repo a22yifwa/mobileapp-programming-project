@@ -10,15 +10,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:text="Min app är en fruktbutiksapp, där du kan se priser och ursprung för olika frukter som säljs i butiken, samt sorterna av dessa frukter."
+        android:layout_width="401dp"
+        android:layout_height="169dp"
+        android:text="Min app är en frukt butiks app, här du kan se priser och ursprung för olika frukter som säljs i butiken, samt sorterna av dessa frukter."
+        android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.252" />
 
     <Button
         android:id="@+id/start_first_activity"
